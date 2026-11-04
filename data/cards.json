@@ -1,0 +1,410 @@
+{
+  "modules": {
+    "F": {
+      "name": "Fios cenográficos",
+      "cards": {
+        "F-01": {
+          "title": "Pulso solar",
+          "seal": "SOL",
+          "serial": "42",
+          "ribbons": [
+            "AZUL",
+            "VERMELHO",
+            "BRANCO",
+            "AMARELO",
+            "VERDE"
+          ]
+        },
+        "F-02": {
+          "title": "Maré dupla",
+          "seal": "LUA",
+          "serial": "17",
+          "ribbons": [
+            "AMARELO",
+            "AZUL",
+            "VIOLETA",
+            "VERDE",
+            "AZUL"
+          ]
+        },
+        "F-03": {
+          "title": "Constelação",
+          "seal": "ESTRELA",
+          "serial": "26",
+          "ribbons": [
+            "VERMELHO",
+            "BRANCO",
+            "AZUL",
+            "VIOLETA"
+          ]
+        },
+        "F-04": {
+          "title": "Correnteza",
+          "seal": "ONDA",
+          "serial": "31",
+          "ribbons": [
+            "AZUL",
+            "VERDE",
+            "AMARELO",
+            "LARANJA",
+            "BRANCO"
+          ]
+        },
+        "F-05": {
+          "title": "Aurora",
+          "seal": "SOL",
+          "serial": "55",
+          "ribbons": [
+            "LARANJA",
+            "VERDE",
+            "AZUL",
+            "AMARELO",
+            "VERMELHO"
+          ]
+        },
+        "F-06": {
+          "title": "Reflexo lunar",
+          "seal": "LUA",
+          "serial": "82",
+          "ribbons": [
+            "VERMELHO",
+            "VIOLETA",
+            "BRANCO",
+            "AZUL",
+            "AZUL"
+          ]
+        },
+        "F-07": {
+          "title": "Órbita",
+          "seal": "ESTRELA",
+          "serial": "43",
+          "ribbons": [
+            "VERDE",
+            "AMARELO",
+            "BRANCO",
+            "AZUL"
+          ]
+        },
+        "F-08": {
+          "title": "Redemoinho",
+          "seal": "ONDA",
+          "serial": "68",
+          "ribbons": [
+            "BRANCO",
+            "VERMELHO",
+            "VERDE",
+            "AZUL",
+            "VERDE"
+          ]
+        }
+      }
+    },
+    "B": {
+      "name": "Quatro botões",
+      "cards": {
+        "B-01": {
+          "title": "Selo circular",
+          "seal": "CÍRCULO",
+          "serial": "428"
+        },
+        "B-02": {
+          "title": "Selo circular invertido",
+          "seal": "CÍRCULO",
+          "serial": "317"
+        },
+        "B-03": {
+          "title": "Selo triangular",
+          "seal": "TRIÂNGULO",
+          "serial": "246"
+        },
+        "B-04": {
+          "title": "Selo triangular invertido",
+          "seal": "TRIÂNGULO",
+          "serial": "135"
+        },
+        "B-05": {
+          "title": "Selo quadrado",
+          "seal": "QUADRADO",
+          "serial": "572"
+        },
+        "B-06": {
+          "title": "Selo quadrado invertido",
+          "seal": "QUADRADO",
+          "serial": "681"
+        },
+        "B-07": {
+          "title": "Selo estrela",
+          "seal": "ESTRELA",
+          "serial": "204"
+        },
+        "B-08": {
+          "title": "Selo estrela invertido",
+          "seal": "ESTRELA",
+          "serial": "913"
+        }
+      }
+    },
+    "S": {
+      "name": "Quatro interruptores",
+      "cards": {
+        "S-01": {
+          "title": "Matriz um",
+          "seal": "CÍRCULO",
+          "serial": "24",
+          "base": "↑↓↑↑"
+        },
+        "S-02": {
+          "title": "Matriz dois",
+          "seal": "CÍRCULO",
+          "serial": "37",
+          "base": "↓↑↓"
+        },
+        "S-03": {
+          "title": "Matriz três",
+          "seal": "TRIÂNGULO",
+          "serial": "42",
+          "base": "↑↑↓↓"
+        },
+        "S-04": {
+          "title": "Matriz quatro",
+          "seal": "TRIÂNGULO",
+          "serial": "51",
+          "base": "↓↓↑"
+        },
+        "S-05": {
+          "title": "Matriz cinco",
+          "seal": "QUADRADO",
+          "serial": "68",
+          "base": "↑↓↓↑"
+        },
+        "S-06": {
+          "title": "Matriz seis",
+          "seal": "QUADRADO",
+          "serial": "73",
+          "base": "↓↑↑"
+        },
+        "S-07": {
+          "title": "Matriz sete",
+          "seal": "ESTRELA",
+          "serial": "24",
+          "base": "↑↓↑↓"
+        },
+        "S-08": {
+          "title": "Matriz oito",
+          "seal": "ESTRELA",
+          "serial": "31",
+          "base": "↑↑↓"
+        }
+      }
+    },
+    "D": {
+      "name": "Disco de símbolos",
+      "cards": {
+        "D-01": {
+          "title": "Rota curta",
+          "start": 1,
+          "sequence": [
+            "LUA",
+            "ESTRELA",
+            "FOLHA"
+          ],
+          "serial": "28"
+        },
+        "D-02": {
+          "title": "Rota quebrada",
+          "start": 4,
+          "sequence": [
+            "RAIO",
+            "SOL",
+            "QUADRADO"
+          ],
+          "serial": "13"
+        },
+        "D-03": {
+          "title": "Rota de retorno",
+          "start": 6,
+          "sequence": [
+            "TRIÂNGULO",
+            "ONDA",
+            "LUA"
+          ],
+          "serial": "42"
+        },
+        "D-04": {
+          "title": "Rota oblíqua",
+          "start": 8,
+          "sequence": [
+            "ESTRELA",
+            "FOLHA",
+            "SOL"
+          ],
+          "serial": "51"
+        },
+        "D-05": {
+          "title": "Rota dupla",
+          "start": 2,
+          "sequence": [
+            "QUADRADO",
+            "RAIO",
+            "ONDA"
+          ],
+          "serial": "64"
+        },
+        "D-06": {
+          "title": "Rota espelhada",
+          "start": 5,
+          "sequence": [
+            "SOL",
+            "TRIÂNGULO",
+            "ESTRELA"
+          ],
+          "serial": "77"
+        },
+        "D-07": {
+          "title": "Rota ascendente",
+          "start": 3,
+          "sequence": [
+            "FOLHA",
+            "LUA",
+            "RAIO"
+          ],
+          "serial": "20"
+        },
+        "D-08": {
+          "title": "Rota final",
+          "start": 7,
+          "sequence": [
+            "ONDA",
+            "QUADRADO",
+            "SOL"
+          ],
+          "serial": "39"
+        }
+      }
+    }
+  },
+  "ribbonPriority": {
+    "SOL": [
+      "VERMELHO",
+      "LARANJA",
+      "AMARELO",
+      "BRANCO",
+      "AZUL",
+      "VERDE",
+      "VIOLETA"
+    ],
+    "LUA": [
+      "AZUL",
+      "VIOLETA",
+      "VERDE",
+      "BRANCO",
+      "AMARELO",
+      "LARANJA",
+      "VERMELHO"
+    ],
+    "ESTRELA": [
+      "VIOLETA",
+      "BRANCO",
+      "AZUL",
+      "AMARELO",
+      "VERDE",
+      "LARANJA",
+      "VERMELHO"
+    ],
+    "ONDA": [
+      "VERDE",
+      "AZUL",
+      "AMARELO",
+      "LARANJA",
+      "VERMELHO",
+      "BRANCO",
+      "VIOLETA"
+    ]
+  },
+  "buttonSequences": {
+    "CÍRCULO|0": [
+      "TRIÂNGULO",
+      "CÍRCULO",
+      "ESTRELA",
+      "QUADRADO"
+    ],
+    "CÍRCULO|1": [
+      "ESTRELA",
+      "TRIÂNGULO",
+      "QUADRADO",
+      "CÍRCULO"
+    ],
+    "TRIÂNGULO|0": [
+      "CÍRCULO",
+      "QUADRADO",
+      "TRIÂNGULO",
+      "ESTRELA"
+    ],
+    "TRIÂNGULO|1": [
+      "QUADRADO",
+      "ESTRELA",
+      "CÍRCULO",
+      "TRIÂNGULO"
+    ],
+    "QUADRADO|0": [
+      "ESTRELA",
+      "CÍRCULO",
+      "QUADRADO",
+      "TRIÂNGULO"
+    ],
+    "QUADRADO|1": [
+      "TRIÂNGULO",
+      "QUADRADO",
+      "CÍRCULO",
+      "ESTRELA"
+    ],
+    "ESTRELA|0": [
+      "QUADRADO",
+      "TRIÂNGULO",
+      "ESTRELA",
+      "CÍRCULO"
+    ],
+    "ESTRELA|1": [
+      "CÍRCULO",
+      "ESTRELA",
+      "TRIÂNGULO",
+      "QUADRADO"
+    ]
+  },
+  "switchMasks": {
+    "CÍRCULO|0": "0001",
+    "CÍRCULO|1": "1000",
+    "TRIÂNGULO|0": "0101",
+    "TRIÂNGULO|1": "1010",
+    "QUADRADO|0": "0110",
+    "QUADRADO|1": "1001",
+    "ESTRELA|0": "1111",
+    "ESTRELA|1": "0000"
+  },
+  "switchMasks3": {
+    "CÍRCULO|0": "001",
+    "CÍRCULO|1": "100",
+    "TRIÂNGULO|0": "010",
+    "TRIÂNGULO|1": "101",
+    "QUADRADO|0": "011",
+    "QUADRADO|1": "110",
+    "ESTRELA|0": "111",
+    "ESTRELA|1": "000"
+  },
+  "dialSymbols": [
+    "SOL",
+    "LUA",
+    "TRIÂNGULO",
+    "QUADRADO",
+    "ESTRELA",
+    "ONDA",
+    "FOLHA",
+    "RAIO"
+  ],
+  "buttonLabels": {
+    "CÍRCULO": "AZUL / CÍRCULO",
+    "TRIÂNGULO": "AMARELO / TRIÂNGULO",
+    "QUADRADO": "VERDE / QUADRADO",
+    "ESTRELA": "VERMELHO / ESTRELA"
+  }
+}

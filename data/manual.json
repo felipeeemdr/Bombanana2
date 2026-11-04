@@ -1,0 +1,120 @@
+{
+  "ribbonPriority": {
+    "SOL": [
+      "VERMELHO",
+      "LARANJA",
+      "AMARELO",
+      "BRANCO",
+      "AZUL",
+      "VERDE",
+      "VIOLETA"
+    ],
+    "LUA": [
+      "AZUL",
+      "VIOLETA",
+      "VERDE",
+      "BRANCO",
+      "AMARELO",
+      "LARANJA",
+      "VERMELHO"
+    ],
+    "ESTRELA": [
+      "VIOLETA",
+      "BRANCO",
+      "AZUL",
+      "AMARELO",
+      "VERDE",
+      "LARANJA",
+      "VERMELHO"
+    ],
+    "ONDA": [
+      "VERDE",
+      "AZUL",
+      "AMARELO",
+      "LARANJA",
+      "VERMELHO",
+      "BRANCO",
+      "VIOLETA"
+    ]
+  },
+  "buttonSequences": {
+    "CÍRCULO|0": [
+      "TRIÂNGULO",
+      "CÍRCULO",
+      "ESTRELA",
+      "QUADRADO"
+    ],
+    "CÍRCULO|1": [
+      "ESTRELA",
+      "TRIÂNGULO",
+      "QUADRADO",
+      "CÍRCULO"
+    ],
+    "TRIÂNGULO|0": [
+      "CÍRCULO",
+      "QUADRADO",
+      "TRIÂNGULO",
+      "ESTRELA"
+    ],
+    "TRIÂNGULO|1": [
+      "QUADRADO",
+      "ESTRELA",
+      "CÍRCULO",
+      "TRIÂNGULO"
+    ],
+    "QUADRADO|0": [
+      "ESTRELA",
+      "CÍRCULO",
+      "QUADRADO",
+      "TRIÂNGULO"
+    ],
+    "QUADRADO|1": [
+      "TRIÂNGULO",
+      "QUADRADO",
+      "CÍRCULO",
+      "ESTRELA"
+    ],
+    "ESTRELA|0": [
+      "QUADRADO",
+      "TRIÂNGULO",
+      "ESTRELA",
+      "CÍRCULO"
+    ],
+    "ESTRELA|1": [
+      "CÍRCULO",
+      "ESTRELA",
+      "TRIÂNGULO",
+      "QUADRADO"
+    ]
+  },
+  "switchMasks": {
+    "CÍRCULO|0": "0001",
+    "CÍRCULO|1": "1000",
+    "TRIÂNGULO|0": "0101",
+    "TRIÂNGULO|1": "1010",
+    "QUADRADO|0": "0110",
+    "QUADRADO|1": "1001",
+    "ESTRELA|0": "1111",
+    "ESTRELA|1": "0000"
+  },
+  "switchMasks3": {
+    "CÍRCULO|0": "001",
+    "CÍRCULO|1": "100",
+    "TRIÂNGULO|0": "010",
+    "TRIÂNGULO|1": "101",
+    "QUADRADO|0": "011",
+    "QUADRADO|1": "110",
+    "ESTRELA|0": "111",
+    "ESTRELA|1": "000"
+  },
+  "dialSymbols": [
+    "SOL",
+    "LUA",
+    "TRIÂNGULO",
+    "QUADRADO",
+    "ESTRELA",
+    "ONDA",
+    "FOLHA",
+    "RAIO"
+  ]
+}
