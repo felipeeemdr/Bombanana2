@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+
+// No Render, DATABASE_URL é preenchida automaticamente pelo render.yaml.
+// Para desenvolvimento local, use a URL PostgreSQL fornecida pelo seu ambiente.
+return [
+    'app_env' => 'production',
+    'database_url' => 'postgresql://USUARIO:SENHA@HOST:5432/NOME_DO_BANCO',
+    'db_sslmode' => 'prefer',
+];

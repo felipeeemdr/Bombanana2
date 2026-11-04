@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: nexo-trio-cripta
+    runtime: docker
+    plan: free
+    region: ohio
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health.php
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: nexo-trio-postgres
+          property: connectionString
+      - key: INSTALL_KEY
+        sync: false
+
+databases:
+  - name: nexo-trio-postgres
+    databaseName: nexotrio
+    user: nexo_app
+    plan: free
+    region: ohio
+    postgresMajorVersion: '18'

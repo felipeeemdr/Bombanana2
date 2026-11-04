@@ -1,0 +1,12 @@
+.git
+.gitignore
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
